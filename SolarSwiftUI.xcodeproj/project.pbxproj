@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		E5963CC0287625CB00B9DD25 /* SolarSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CBF287625CB00B9DD25 /* SolarSwiftUIApp.swift */; };
-		E5963CC2287625CB00B9DD25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CC1287625CB00B9DD25 /* ContentView.swift */; };
 		E5963CC4287625CE00B9DD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5963CC3287625CE00B9DD25 /* Assets.xcassets */; };
 		E5963CC7287625CE00B9DD25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5963CC6287625CE00B9DD25 /* Preview Assets.xcassets */; };
+		E5963CCE287629FD00B9DD25 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CCD287629FD00B9DD25 /* Planet.swift */; };
+		E5963CD028762B8000B9DD25 /* PlanetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CCF28762B8000B9DD25 /* PlanetDataStore.swift */; };
+		E5963CD22876305900B9DD25 /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CD12876305800B9DD25 /* PlanetListView.swift */; };
+		E5963CD4287636D600B9DD25 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5963CD3287636D600B9DD25 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5963CBC287625CB00B9DD25 /* SolarSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5963CBF287625CB00B9DD25 /* SolarSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSwiftUIApp.swift; sourceTree = "<group>"; };
-		E5963CC1287625CB00B9DD25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5963CC3287625CE00B9DD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5963CC6287625CE00B9DD25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5963CCD287629FD00B9DD25 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		E5963CCF28762B8000B9DD25 /* PlanetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataStore.swift; sourceTree = "<group>"; };
+		E5963CD12876305800B9DD25 /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		E5963CD3287636D600B9DD25 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				E5963CBF287625CB00B9DD25 /* SolarSwiftUIApp.swift */,
-				E5963CC1287625CB00B9DD25 /* ContentView.swift */,
 				E5963CC3287625CE00B9DD25 /* Assets.xcassets */,
 				E5963CC5287625CE00B9DD25 /* Preview Content */,
+				E5963CCD287629FD00B9DD25 /* Planet.swift */,
+				E5963CCF28762B8000B9DD25 /* PlanetDataStore.swift */,
+				E5963CD12876305800B9DD25 /* PlanetListView.swift */,
+				E5963CD3287636D600B9DD25 /* DetailView.swift */,
 			);
 			path = SolarSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5963CC2287625CB00B9DD25 /* ContentView.swift in Sources */,
+				E5963CCE287629FD00B9DD25 /* Planet.swift in Sources */,
 				E5963CC0287625CB00B9DD25 /* SolarSwiftUIApp.swift in Sources */,
+				E5963CD22876305900B9DD25 /* PlanetListView.swift in Sources */,
+				E5963CD4287636D600B9DD25 /* DetailView.swift in Sources */,
+				E5963CD028762B8000B9DD25 /* PlanetDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
